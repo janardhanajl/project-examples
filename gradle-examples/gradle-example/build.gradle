@@ -105,7 +105,6 @@ artifactory {
       // Properties to be attached to the published artifacts.
       properties = ['qa.level': 'basic', 'dev.team' : 'core']
       // You can also attach properties to published artifacts according to
-      // the following notation:
       // <configuration name> <artifact spec>
       // The <configuration name> should be the name of the relevant Gradle Configuration or 'all'
       // (for all configurations).
